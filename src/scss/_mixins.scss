@@ -1,0 +1,39 @@
+// @mixin footer-style {
+//     color: white;
+//         background-color: orangered;
+//         -moz-border-radius:1em;
+//         -webkit-border-radius:1em;
+//         -ms-border-radius:1em;
+//         border-radius:0.5em;
+// }
+
+// @mixin alert-style ($borderradius) {
+//     padding:1.2em;
+//     border: 2px solid #CCC;
+//     color: white;
+//     -moz-border-radius:1em;
+//     -webkit-border-radius:1em;
+//     -ms-border-radius:1em;
+//     border-radius:2em;
+//     border: 1px solid #CCC;
+//       padding: 1em;
+// }
+
+
+@mixin googleFonts($font) {
+    @import url('https://fonts.googleapis.com/css2?family=#{$font}&display=swap');
+    margin:5em;
+    background-color:red;
+    
+
+}
+
+@mixin border-radius($degre){
+    -moz-border-radius:1em;
+    -webkit-border-radius:1em;
+    -ms-border-radius:1em;
+    border-radius:2em;
+    border: 1px solid #CCC;
+}
+
+

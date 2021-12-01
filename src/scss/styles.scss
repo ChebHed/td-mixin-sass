@@ -1,0 +1,72 @@
+/* modifié par CHEBHED le 17/11/2021 */
+// 
+
+@use './variables' as *;
+@use './bases' as *;
+@use './mixins'as *;
+@use './functions' as *;
+@use './header' as *;
+@use './placeholders' as *;
+@use './home' as *;
+@use './menus' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  
+  %alert{
+    padding:1.2em;
+    border: 2px solid #CCC;
+    color: white;
+    }
+    
+  
+  
+
+    .alert-success{
+      @extend %alert;
+      background-color: green;
+      @include border-radius(5em);
+      }
+
+
+      footer {
+        color: white;
+        background-color: orangered;
+        @include border-radius(5em);
+      }
+
+
+
+      #logo{
+        padding:1em;
+        margin: 0 auto;
+        text-align:center;
+        font-size:2em;
+        @include googleFonts(Concert+One);
+      
+      }
+        #slogan{
+        padding:1em;
+        margin: 0 auto;
+        text-align:center;
+        font-size:2em;
+      }
+
+    //  .logo{
+    //     font-size: 4em;
+    //     @include googlefonts("Slabo+27px");
+    //   }
+
+
+    //   .slogan{
+    //     font-size: 1.5em;
+    //     @inc lude googlefonts(Concert+One);
+    //   }
+
+      //Slabo+27px
+      //Concert+One

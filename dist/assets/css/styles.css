@@ -1,0 +1,65 @@
+@charset "UTF-8";
+#logo {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+#slogan {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* modifié par CHEBHED le 17/11/2021 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert-success {
+  padding: 1.2em;
+  border: 2px solid #CCC;
+  color: white;
+}
+
+.alert-success {
+  background-color: green;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -ms-border-radius: 1em;
+  border-radius: 2em;
+  border: 1px solid #CCC;
+}
+
+footer {
+  color: white;
+  background-color: orangered;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -ms-border-radius: 1em;
+  border-radius: 2em;
+  border: 1px solid #CCC;
+}
+
+#logo {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  @import url("https://fonts.googleapis.com/css2?family=ConcertOne&display=swap");
+  margin: 5em;
+  background-color: red;
+}
+
+#slogan {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=styles.css.map */
